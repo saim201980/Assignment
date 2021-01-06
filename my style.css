@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: rgba(7, 25, 82, 0.925);
+    
+}
+h2{
+    font-size: 2.3rem;
+    color: rgba(7, 25, 82, 0.925);
+    
+}
+h3{
+    
+    color:rgba(0, 0, 0, 0.603);
+}
+p{
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.76);
+}
+.text-highlight{
+    color: salmon;
+}
+.first-section{
+    padding-bottom: 5px;
+}
+.nav-link{
+    
+    float: right;
+    margin-right: 150px;
+    padding: 10px;
+}
+.nav-link a{
+   
+    text-decoration: none;
+    padding:  15px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+}
+
+.half-width{
+    font-size: 2rem;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  background-image: linear-gradient(180deg, salmon, tomato);
+  width: 130px;
+  height: 50px;
+}
+.my-image{
+    width: 35%;
+    float: right;
+    margin-right: 10%;
+    padding-left: 10%;
+}
+
+.my-image img{
+    width: 80%; 
+    margin-right: 30%;
+    margin-top: -20%;
+   
+    
+}
+.second-section{
+    height: 100%;
+}
+
+.about-image{
+    float: right;
+    width: 35%;
+    
+}
+.about-image img{
+    width: 80%;
+    padding-bottom: 10%;
+}
+
+.about-me{
+    padding-right: 300px;
+    float: right;
+    margin-top: -350px;
+}
+
+.working-section{
+    text-align: center;
+    
+    
+}
+
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+   
+    
+    
+}
+.card{
+    margin: 45px ;
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    width: 100%;
+}
+.card-body {
+    
+    padding: 5px;
+}
+
+.card-title h2{
+    font-size: 1.5rem;
+}
+.card:hover{
+    box-shadow: 10px 10px 30px gray;
+}
+.work{
+    width: 60%;
+    background-color:rgba(76, 0, 255, 0.76);
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 15px;
+}
+.work h1{
+    padding: 40px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    float: left;
+}
+.chat-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(180deg, salmon, tomato);
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.footer-section{
+    height: 200px;
+    text-align: center;
+}
+
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer img{
+    padding: 5px 10px;
+    width: 40px;
+    
+}
+
+
+
+
